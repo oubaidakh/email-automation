@@ -1,0 +1,5 @@
+pandas
+sib-api-v3-sdk
+python-dotenv
+flask
+requests
