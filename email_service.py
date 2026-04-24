@@ -32,7 +32,7 @@ class EmailService:
         )
 
         try:
-            api_response = api_instance.send_transitional_emails(send_smtp_email)
+            api_response = api_instance.send_transac_email(send_smtp_email)
             logging.info(f"Email sent to {email}. Message ID: {api_response.message_id}")
             return True
         except ApiException as e:
